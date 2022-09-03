@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "glaho";
+}
+@font-face {
+    font-family: glaho;
+    src: url(../fontss/bpg_glaho.ttf);
+}
+header{
+    width: 100%;
+    height: 150px;
+    padding: 62px 36px;
+    background-color: rgb(196, 196, 196);
+    
+}
+header li{
+    float: left;
+    padding: 10px 5px;
+}
+header li a{
+    color: rgb(0, 0, 0);
+}
+
+.pirveli{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(39, 98, 150);
+    margin-bottom: 16px;
+}
+.pirveli img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+.cont{
+    margin: 0px 32px;
+}
+.cont2{
+    margin: 0px 32px;
+}
+.mart{
+    width: 33.33%;
+    height: 200px;
+    margin: 32px 0px 0px;
+    float: left;
+    /* opacity: 0.5; */
+}
+.mart1{
+    background-color: rgb(255, 153, 0);
+}
+.old{
+    width: 100%;
+    height: 100%;
+}
+.mart2{
+    background-color: rgb(255, 199, 0);
+}
+.whistle{
+    width: 100%;
+    height: 100%;
+}
+.mart3{
+    background-color: rgb(255, 230, 0);
+}
+.worldcup{
+    width: 100%;
+    height: 100%;
+}
+.shvili{
+    width: 33.33%;
+    height: 148px;
+    float: left;
+    /* overflow: hidden; */
+}
+.ko{
+    background-color: rgb(255, 153, 0);
+
+}
+.ko1{
+    background-color: rgb(255, 199, 0);
+}
+.ko2{
+    background-color: rgb(255, 230, 0);
+}
+.satauri{
+    position: absolute;
+    width: 500px;
+    height: 24px;
+    padding: 24px 12px;
+    font-size: 26px;
+}
+.text{
+    height: 120px;
+    padding: 60px 0px 0px 12px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.continue{
+    padding: 0px 12px;
+    font-size: 12px;
+}
+.continue::after{
+    content: "...";
+    font-size: 8px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+}
+.foot::after{
+    content: "ყველა უფლება დაცულია" ;
+    margin-left: 0px;
+    font-size: 12px;
+}
+.c{
+    margin-left: 38px;
+}
+.goback{
+    padding: 12px 45px;
+    font-size: 12px;
+}
+.goback::before{
+    content: "<<";
+}
+.didicont{
+    margin: 0px 38px 14px 32px;
+}
+.first{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 153, 0);
+
+}
+.one{
+    background-color: rgb(255, 230, 0);
+}
+.second{
+    background-color: rgb(255, 199, 0);
+}
+.mkutxedi{
+    width: 33.33%;
+    height: 200px;
+    background-color: rgb(219, 18, 18);
+    float: left;
+    padding: 0px 20px; 
+}
+.erti{
+    background-color: rgb(255, 153, 0);
+
+}
+.meore{
+    background-color: rgb(255, 199, 10);
+
+}
+.mesame{
+    background-color: rgb(255, 230, 0);
+}
+.rules{
+    width: 100%;
+    height: 200px;
+}
+.spain{
+    width: 100%;
+    height: 200px;
+
+}
+.germany{
+    width: 100%;
+    height: 200px;
+}
+.france{
+    width: 100%;
+    height: 200px;
+}
+.legends{
+    width: 100%;
+    height: 200px;
+}
+.istoria{
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    background-color: rgb(255, 199, 0);
+}
+.stat2{
+    background-color: rgb(255, 230, 0);
+}
+.stat1{
+    background-color: rgb(255, 153, 0);
+}
+.wesebi{
+    padding: 36px 10px;
+    text-align: justify;
+    font-size: 14px;
+}
